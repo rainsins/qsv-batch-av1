@@ -34,3 +34,16 @@ powershell -c "irm [https://astral-sh.uv.io/install.ps1](https://astral-sh.uv.io
 
 # macOS/Linux
 curl -LsSf [https://astral-sh.uv.io/install.sh](https://astral-sh.uv.io/install.sh) | sh
+
+```
+
+### 3. 使用
+
+```bash
+# 克隆仓库
+git clone https://github.com/your-username/arc-av1-transcoder.git
+cd arc-av1-transcoder
+
+# 运行脚本 (uv 会自动下载 Python 解释器并准备环境)
+uv run convert_to_av1.py <输入文件夹路径> <输出文件夹路径>
+```
